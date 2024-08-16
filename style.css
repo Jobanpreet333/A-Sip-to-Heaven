@@ -1,0 +1,301 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+.heading{
+    display: flex;
+    flex-direction: row;
+    background-color: #74512D;
+}
+
+h1{
+    text-align: center;
+    background-color: #74512D;
+    color: #F8F4E1;
+    height: 80px;
+    margin-top: 0px;
+    padding-top: 20px;
+    width: 70vw;
+    padding-left: 15px;
+    padding-right: 20px;
+    gap: 20px;
+    font-family: "Sevillana", cursive;
+    font-weight: 400;
+    font-style: normal;     
+}
+
+.heading img{
+    border-radius: 100%;
+    width:15vw;
+    height: 80px;
+    background-color: #74512D;
+    margin-left: 30px;
+    margin-top: 12px;
+}
+
+.options {
+    height: 80px;
+    width: 100vw;
+    background-color: #74512D;
+}
+
+.options button{
+    width: 14%;
+    height: 40px;
+    margin-left: 30px;
+    margin-right: 25px;
+    border-radius: 10px;
+    background-color: #F8F4E1;
+    color: #74512D;
+    font-size: 14px;
+    font-weight: bold;
+}
+
+.options button:hover{
+    background-color: #AF8F6F;
+    cursor: pointer;
+}
+
+.head-section{
+    display: flex;
+    width: 100%;
+}
+
+.order{
+    height: 400px;
+    width: 50%;
+    align-items: center;
+    text-align: center;
+    margin-top: 20px;
+    background-image: url("coffee-5417663_640.webp");
+    background-color: #f4c494;
+}
+
+.order h2{
+    margin-top: 50px;
+    color: #543310;
+}
+.order button{
+    width: 270px;
+    height: 50px;
+    margin-top: 70px;
+    margin-bottom: 20px;
+    border-radius: 12px;
+    background-color: #543310;
+    color: #AF8F6F;
+    font-weight: bold;
+    font-size: 20px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+.order button:hover{
+    background-color: #F8F4E1;
+}
+
+.order h3{
+    font-size: 25px;
+    /* border: 4px solid #74512D; */
+    width: 400px;
+    border-radius: 12px;
+    background-color: #543310;
+    justify-content: center;
+    margin-left: 120px;
+    color: #AF8F6F;
+    height: 40px;
+    padding-top:10px ;
+}
+
+.order h3:hover{
+    background-color: #F8F4E1;
+}
+
+.label{
+    width: 400px;
+    border-radius: 12px;
+    background-color: #543310;
+    margin-left: 120px;
+    color: #AF8F6F;
+    height: 40px;
+    padding-top:10px ;
+    justify-content: center;
+    display: none;
+}
+
+.label label{
+    font-size: 25px;
+    display: none;
+}
+
+.option select{
+    /* padding-top:10px ; */
+    font-size: 25px;
+    width:250px ;
+    margin-top: 20px;
+    background-color: #543310;
+    color: #AF8F6F;
+    align-items: center;
+    text-align: center;
+   display: none;
+}
+.option option{
+    width:300px ;display: none;
+    margin-left: 120px;
+    margin-top: 20px;
+    padding-top:10px ;
+    font-size: 30px;
+    background-color: #543310;
+    color: #AF8F6F;
+    
+}
+.options button{
+    margin-top: 10px;
+}
+.photo{
+    height: 300px;
+    width: 50%;
+    margin-right: 0px;
+}
+.photo img{
+    width: 100%;
+    height: 400px;
+    margin-top: 20px;
+    margin-bottom: 100px;
+}
+.middle-section{
+    width: 100%;
+    height: 700px;
+    margin-top: 40px;
+}
+
+.middle-section{
+    background-image: url("2402088.jpg");
+    /* background-size: 100% 300%; */
+}
+
+.middle-section img{
+    width: 30%;
+    height: 30%;
+    align-items: center;
+    margin: 200px 500px;
+}
+
+.middle-section button{
+    width: 200px;
+    height: 40px;
+    margin-left : 600px;
+    margin-top: 0px;
+    border-radius: 12px;
+    color: #74512D;
+    background-color: #F8F4E1;
+    font-size: large;
+    font-weight: bold;
+}
+
+.middle-section button:hover{
+    background-color: #AF8F6F;
+}
+.dashboard{
+    display: flex;
+    margin-top: 40px;
+    background-color: #74512D;
+    padding-left: 40px;
+    padding-top: 40px;
+    gap: 80px;
+    width: 100vw;
+
+}
+
+.dashboard h2{
+    color: #AF8F6F;
+}
+
+
+.media img{
+   width: 50px;
+   height: 20px;
+}
+
+#dash h3{
+    padding: 10px;
+    font-size:20px; 
+    font-family: "Nunito Sans",sans-serif;
+    color: #F8F4E1;
+    
+}
+.bar{
+    display: none;
+}
+ @media(min-width : 0px) and (max-width:500px){
+    /* .options{
+        display: none;
+    } */
+
+    .options button{
+        margin-left: 10px;
+        margin-right: 0px;
+    }
+    #bar{
+        display: flex;
+    }
+    .dashboard{
+        display: none;
+    }
+    .middle-section img{
+        margin-left: 100px;
+        margin-top: 300px;
+    }
+    .head-section{
+        display: flex;
+        flex-direction: column;
+    }
+    .photo img{
+        width:200%;
+    }
+    .order{
+        width: 100%;
+    }
+    .middle-section img {
+        width: 50%}
+    .middle-section button{
+        margin-left: 100px;
+    }
+} 
+
+@media (min-width:500px) and (max-width:700px){
+    .middle-section button{
+        margin-left: 200px;
+    }
+    .middle-section img{
+        margin-left: 200px;
+        margin-top: 300px;
+    }
+    .dashboard{
+        display: none;
+    }
+    .options button{
+        margin-left: 10px;
+        margin-right: 15px;
+    }
+}
+@media (min-width:700px) and (max-width:1000px){
+    .options button{
+        margin-left: 20px;
+        margin-right: 15px;
+    }
+    .middle-section img{
+        margin-left: 250px;
+    }
+    .middle-section button{
+        margin-left: 250px;
+    }
+}
+
+@media (min-width :900px) and (max-width:1000px){
+    .middle-section img{
+        margin-left: 300px;
+    }
+    .middle-section button{
+        margin-left: 300px;
+    }
+}

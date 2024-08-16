@@ -1,0 +1,26 @@
+.image img{
+    align-items: center;
+}
+
+.image {
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    background-color: rgb(30 7 7 / 93%); 
+}
+@media(min-width:0px) and (max-width:400px){
+    .image{
+        width: 70%;
+    }
+}
+@media(min-width:800px) and (max-width:1000px){
+    .image img{
+        width: 40%;
+    }
+}
+@media(min-width:1000px) and (max-width:1300px){
+    .image img{
+        width: 60%;
+        text-align: start;
+    }
+}

@@ -1,0 +1,15 @@
+.image img{
+    display: flex;
+    margin-left: 35%;
+}
+
+.image {
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+    background-color: rgb(198, 162, 168);
+}
+
+#img1{
+    background-color: pink;
+}

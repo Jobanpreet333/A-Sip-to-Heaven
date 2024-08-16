@@ -1,0 +1,21 @@
+h1{
+    align-items: center;
+}
+
+.history{
+    align-items: center;
+    text-align: center;
+    color: rgb(97 52 20 / 88%);
+    /* background-color: rgb(165 129 104 / 84%); */
+    ;
+
+}
+.his{
+    background-color: rgb(165 129 104 / 84%);
+}
+
+p{
+    /* background-color: rgb(165 129 104 / 84%); */
+    color: rgb(97 52 20 / 88%);
+
+}
